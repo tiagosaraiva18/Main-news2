@@ -1,0 +1,67 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    height: 50px;
+    position: relative;
+    border-bottom: 1px solid var(--borda-inferior-cabecalho);
+    width: 100%;
+}
+
+.cabecalho__caixa{
+    width: 70%;
+    align-items: center;
+    display: flex;
+}
+
+.cabecalho__logo{
+    background-image: url('../img/logo-noticias.png');
+    background-repeat: no-repeat;
+    width: 17%;
+    height: 100%;
+    background-size: 7rem;
+    background-position: center;
+    margin: 0;
+    display: inline-block;
+}
+
+.cabecalho__titulo{
+    font-size: 18px;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    align-self: center;
+}
+
+.cabecalho__titulo a{
+    color: var(--titulo-pagina);
+}
+
+.cabecalho__botao{
+    border: none;
+    background: transparent;
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+}
+
+.cabecalho__lista{
+    position: absolute;
+    top: 100%;
+    background-color: var(--fundo-lista-cabecalho);
+    padding: 1rem;
+    right: 0;
+    width: 45%;
+    border-bottom-left-radius: 15px;
+}
+
+.lista-oculta{
+    display: none;
+}
+
+.lista__link{
+    text-decoration: none;
+    line-height: 27px;
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 18px;
+}

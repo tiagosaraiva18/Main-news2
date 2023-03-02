@@ -1,0 +1,20 @@
+.rodape{
+    background-image: url('../img/banner-rodape.png');
+    background-size: cover;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.rodape__logo{
+    width: 7rem;
+}
+
+.rodape__texto{
+    color: var(--branco);
+    display: inline-block;
+}
+
+.rodape__texto::before{
+    content: '©';
+    margin-right: .5rem;
+}
